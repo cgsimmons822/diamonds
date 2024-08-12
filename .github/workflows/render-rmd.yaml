@@ -1,6 +1,6 @@
 name: render
 on:
-  push:
+  workflow_dispatch:
     branches: master
 permissions:
   contents: write
